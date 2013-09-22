@@ -29,11 +29,8 @@ $(function(){
 		// carousel.slide(2);
 		// carousel.moveRight();
 		// carousel.moveLeft();
-		// carousel.getIndex();
 		// carousel.stopAutoPlay();
 		// carousel.removeKeyboardControls();
-		// carousel.moveRight();
-
 });
 
 
