@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Carousel</title>
+	<link rel="stylesheet" href="user-style.css"/>
+	<script src="jquery.min.1.10.2.js"></script>
+
+	<script src="quickCarousel.jquery.1.0.js"></script>
+	<link rel="stylesheet" href="quickCarousel.css"/>
+
+	<script src="main.js"></script>
+
+</head>
+<body>
+	
+
+	<!-- quickCarousel Plugin -->
+	<div id="carousel-wrapper">
+		
+		<!-- If you don't want navigation arrows pass "navigationArrows : false" or remove <a> from html -->
+		<a id="carousel-left" class="left"></a>
+		<a id="carousel-right" class="right"></a>
+
+		<!-- Do not change the class name-->
+		<div class="inner-wrapper">
+			
+			<!-- Add any number of divs/slides using the class "item" -->
+
+			<div class="item">
+				<!-- This is you custom div. -->
+				<div class="bg1"></div>	
+			</div>
+			
+			<div class="item">
+				<!-- This is you custom div. -->
+				<div class="custom-slide">
+					<h1>Slide - 2</h1>
+				</div>	
+			</div>
+
+			<div class="item">
+				<!-- This is you custom div. -->
+				<div class="bg2"></div>	
+			</div>
+			
+			<div class="item">
+				<!-- This is you custom div. -->
+				<div class="bg3"></div>	
+			</div>
+			
+			<div class="item">
+				<!-- This is you custom div. -->
+				<div class="bg4"></div>	
+			</div>
+		</div>
+
+		<!-- The control bar at the bottom. Don't change the class name -->
+		<!-- Pass "controlBar = false" to remove from view -->
+		<div class="control-panel-wrapper">
+			<ul id="quick-carousel-control-panel"> <!-- Don't change the Id -->
+				<!-- <li>s will by dynamically added here-->
+			</ul>	
+		</div>
+		
+	</div>
+</body>
+</html>
