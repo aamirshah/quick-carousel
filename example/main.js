@@ -1,7 +1,9 @@
 $(function(){
 	
+	// Carousel can be called in many ways
+		// $('#carousel-wrapper').quickCarousel('800px');
+		// $('#carousel-wrapper').quickCarousel();
 
-	// $('#carousel-wrapper').quickCarousel('800px');
 	var carousel = $('#carousel-wrapper').quickCarousel({
 			width: '800px'
 		  , height: '350px'
@@ -16,17 +18,22 @@ $(function(){
 		  , keyboardControls: true
 		}
 	);
-	// $.fn.quickCarousel.options['controlBar'] = true;
-	// $('#carousel-wrapper').quickCarousel();
+	
+	// We can directly acces the default options like this
+		// $.fn.quickCarousel.options['controlBar'] = true;
+	
 
-	setTimeout(function(){
+	// Various Methods available are
+
 		// carousel.getIndex();
 		// carousel.slide(2);
+		// carousel.moveRight();
+		// carousel.moveLeft();
 		// carousel.getIndex();
 		// carousel.stopAutoPlay();
 		// carousel.removeKeyboardControls();
 		// carousel.moveRight();
-	},5000);
+
 });
 
 
